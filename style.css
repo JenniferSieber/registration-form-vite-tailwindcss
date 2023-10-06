@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent-container  {
+  background-image: linear-gradient(115deg, #9F7AEA,#FEE2FE);
+}
+
+.image-content {
+  background-image: url('./images/register-bg.png');
+}
+
+h1, h2, a, input {
+  text-transform: capitalize;
+}
